@@ -1,0 +1,8 @@
+[
+    {
+        "system": "linux",
+        "gpu": "nvidia",
+        "ram": 64,
+        "cpu": 12
+    }
+]
