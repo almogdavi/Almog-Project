@@ -1,0 +1,8 @@
+[
+    {
+        "system": "mac",
+        "gpu": "nvidia",
+        "ram": 32,
+        "cpu": 8
+    }
+]
