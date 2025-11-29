@@ -16,9 +16,9 @@ def user_computer_input() -> list[Computer]:
     computers: list[Computer] = []
 
     while True:
-        print("\n==========================")
-        print("       New Computer       ")
         print("==========================")
+        print("       Choose a computer       ")
+        print("__________________________")
 
         system = input("Enter system (windows/mac/linux) or 'done' to finish: ")
 
@@ -72,3 +72,16 @@ if __name__ == "__main__":
     machines = user_computer_input()
     save_to_json(machines)
     print("Done!")
+
+#def run_service_setup():
+#    try:
+#        subprocess.run(["bash", "scripts/setup_service.sh"], check=True)
+#    except subprocess.CalledProcessError as e:
+#        print("[ERROR] Service setup failed.")
+#        logging.error(f"Service setup failed: {e}")
+
+#if __name__ == "__main__":
+#    machines = user_computer_input()
+#    save_to_json(machines)
+#    run_service_setup()
+#    print("Done!")

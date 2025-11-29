@@ -1,8 +1,8 @@
 [
     {
-        "system": "linux",
-        "gpu": "nvidia",
-        "ram": 64,
-        "cpu": 12
+        "system": "mac",
+        "gpu": "intel",
+        "ram": 8,
+        "cpu": 8
     }
 ]

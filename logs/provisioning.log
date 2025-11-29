@@ -19,3 +19,48 @@ system
 2025-11-23 19:04:36,382 - INFO - Saved computers to configs/instances.json
 2025-11-23 19:05:25,176 - INFO - New computer added: system='linux' gpu='nvidia' ram=64 cpu=12
 2025-11-23 19:05:27,639 - INFO - Saved computers to configs/instances.json
+2025-11-27 22:54:17,478 - INFO - New computer added: system='windows' gpu='nvidia' ram=64 cpu=4
+2025-11-27 22:54:19,830 - INFO - Saved computers to configs/instances.json
+2025-11-27 22:54:27,955 - INFO - Saved computers to configs/instances.json
+2025-11-27 22:54:27,955 - INFO - Starting service setup script...
+2025-11-27 22:54:27,969 - ERROR - Bash or script not found: [WinError 2] The system cannot find the file specified
+2025-11-27 22:55:08,122 - INFO - New computer added: system='linux' gpu='intel' ram=32 cpu=10
+2025-11-27 22:55:09,892 - INFO - Saved computers to configs/instances.json
+2025-11-27 22:55:14,716 - INFO - Saved computers to configs/instances.json
+2025-11-27 22:55:14,717 - INFO - Starting service setup script...
+2025-11-27 22:55:14,719 - ERROR - Bash or script not found: [WinError 2] The system cannot find the file specified
+2025-11-29 07:03:18,758 - ERROR - Input error: invalid literal for int() with base 10: ''
+2025-11-29 07:03:24,780 - ERROR - Input error: invalid literal for int() with base 10: ''
+2025-11-29 07:03:26,399 - INFO - Saved computers to configs/instances.json
+2025-11-29 07:03:57,170 - ERROR - Input error: invalid literal for int() with base 10: '& C:/Users/almog/AppData/Local/Microsoft/WindowsApps/python3.13.exe c:/Users/almog/devopstraining/infra-automation/infra_simulator.py'
+2025-11-29 07:04:01,893 - INFO - Saved computers to configs/instances.json
+2025-11-29 07:05:06,726 - INFO - New computer added: system='mac' gpu='intel' ram=12 cpu=8
+2025-11-29 07:05:25,806 - ERROR - Input error: invalid literal for int() with base 10: 'done'
+2025-11-29 07:05:30,997 - ERROR - Input error: invalid literal for int() with base 10: 'done'
+2025-11-29 07:05:57,842 - INFO - Saved computers to configs/instances.json
+2025-11-29 07:07:08,964 - ERROR - Input error: invalid literal for int() with base 10: ''
+2025-11-29 07:07:13,040 - INFO - Saved computers to configs/instances.json
+2025-11-29 07:07:25,277 - INFO - New computer added: system='windows' gpu='nvidia' ram=32 cpu=2
+2025-11-29 07:07:26,716 - INFO - Saved computers to configs/instances.json
+2025-11-29 14:01:50,406 - ERROR - Input error: 3 validation errors for Computer
+system
+  Input should be 'windows', 'mac' or 'linux' [type=literal_error, input_value='windoes', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+gpu
+  Input should be 'nvidia' or 'intel' [type=literal_error, input_value='mac', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+ram
+  Input should be 4, 8, 12, 16, 32 or 64 [type=literal_error, input_value=3, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+2025-11-29 14:02:11,399 - INFO - New computer added: system='windows' gpu='intel' ram=32 cpu=2
+2025-11-29 14:02:13,520 - INFO - Saved computers to configs/instances.json
+2025-11-29 14:02:35,711 - ERROR - Input error: invalid literal for int() with base 10: ''
+2025-11-29 14:02:52,575 - INFO - New computer added: system='windows' gpu='nvidia' ram=32 cpu=12
+2025-11-29 14:02:54,849 - INFO - Saved computers to configs/instances.json
+2025-11-29 14:05:02,714 - INFO - New computer added: system='windows' gpu='nvidia' ram=32 cpu=12
+2025-11-29 14:05:03,980 - INFO - Saved computers to configs/instances.json
+2025-11-29 14:10:37,858 - INFO - New computer added: system='windows' gpu='nvidia' ram=32 cpu=12
+2025-11-29 14:11:01,750 - ERROR - Input error: invalid literal for int() with base 10: 'done'
+2025-11-29 14:11:03,045 - INFO - Saved computers to configs/instances.json
+2025-11-29 14:11:19,032 - INFO - New computer added: system='mac' gpu='intel' ram=8 cpu=8
+2025-11-29 14:11:20,961 - INFO - Saved computers to configs/instances.json
